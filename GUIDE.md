@@ -164,7 +164,7 @@ Body sử dụng `100vw` × `100vh` nên tự động khớp với kích thướ
 ```json
 {
   "label": "notification",
-  "title": "Luckit Notification",
+  "title": "Locket Desktop Notification",
   "width": 320,
   "height": 80,
   "resizable": false,

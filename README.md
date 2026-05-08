@@ -100,7 +100,7 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 ## Cấu trúc dự án
 
 ```
-luckit/
+LocketDesktop/
 ├── src/                            ← Frontend (React + TypeScript)
 │   ├── main.tsx                    ← Điểm vào React
 │   ├── Popup.tsx                   ← Component gốc, quản lý state toàn cục
@@ -156,7 +156,7 @@ luckit/
 
 ## Cài đặt
 
-Tải bản cài đặt từ trang [Releases](https://github.com/Holozok/luckit/releases/latest):
+Tải bản cài đặt từ trang [Releases](https://github.com/VthongVthongVthong/LocketDesktop/releases/latest):
 
 ```
 Locket Desktop_x.x.x_x64-setup.exe   ← NSIS installer (khuyến nghị)
