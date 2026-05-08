@@ -1,0 +1,56 @@
+.GalleryContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+}
+
+.GalleryHeader {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #111;
+    position: relative;
+    z-index: 100;
+}
+
+.SavedMoment {
+    flex: 1;
+    width: 100%;
+    overflow-y: overlay;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    background: #000;
+    padding: 1rem;
+    padding-right: 0.5rem;
+    align-content: flex-start;
+
+    .Moment {
+        width: calc(100% / 3 - 0.5rem);
+        aspect-ratio: 1 / 1;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(0.98);
+        }
+    }
+}
+
+.EmptyGallery {
+    width: 100%;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #555;
+    font-size: 15px;
+}

@@ -1,0 +1,222 @@
+$section: 4;
+
+.Global {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+
+    .Section {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        position: fixed;
+        transition: 0.2s;
+        transform: scale(1.05);
+        opacity: 0;
+        visibility: hidden;
+        background: #000;
+    }
+
+    .MainMenuBtn {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .BackBtn {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &[data-section="0"] {
+        .BackBtn {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .MainMenuBtn {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &[data-section="0"] {
+        .Section {
+            &[data-section="0"] {
+                transform: scale(1);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            @for $i from 1 through $section {
+                &[data-section="#{$i}"] {
+                    transform: scale(0.95);
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+    @for $i from 1 through $section {
+        &[data-section="#{$i}"] {
+            .Section {
+                &[data-section="#{$i}"] {
+                    transform: scale(1);
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+                &[data-section="0"] {
+                    transform: scale(1.05);
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                
+                // Ensure other sections are also hidden
+                @for $j from 1 through $section {
+                    @if $i != $j {
+                        &[data-section="#{$j}"] {
+                            transform: scale(0.95);
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .WindowControls {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.3rem 0.4rem;
+        background: linear-gradient(to bottom, #00000060, transparent);
+    }
+
+    .WinBtn {
+        background: transparent;
+        border: none;
+        color: #aaa;
+        font-size: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.25rem;
+        border-radius: 4px;
+        transition: 0.15s;
+        line-height: 1;
+
+        &:hover {
+            background: #ffffff22;
+            color: #fff;
+        }
+    }
+
+    .MenuBtn {
+        position: fixed;
+        bottom: 1rem;
+        left: 1.5rem;
+        z-index: 999;
+        font-size: 25px;
+        background: #00000085;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.4rem;
+        border-radius: 100%;
+        cursor: pointer;
+        border: none;
+        transition: 0.2s;
+
+        &:hover {
+            background: #111;
+        }
+    }
+
+    .Menu {
+        position: fixed !important;
+        height: fit-content;
+        top: unset !important;
+        bottom: 3.5rem;
+        background: #000000bb;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0px 0px 10px 0px #0000002c;
+        border: 1px solid #333333b0;
+        border-radius: 5px;
+
+        .MenuItem,
+        .AccountMenu {
+            color: var(--color);
+            padding: 0.3rem 0.5rem;
+
+            &:hover {
+                background: #222222bb;
+            }
+
+            font-size: 13px;
+            text-decoration: none;
+
+            svg {
+                font-size: 20px;
+                margin-right: 0.5rem;
+            }
+
+            &:disabled *,
+            &:disabled {
+                cursor: not-allowed !important;
+            }
+        }
+
+        .AccountMenu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            :global {
+                .szh-menu__item.szh-menu__item--submenu {
+                    color: var(--color);
+                    padding: 0.3rem 0.6rem;
+                    background: transparent !important;
+
+                    &:hover {
+                        background: #222222bb;
+                    }
+
+                    &::after {
+                        position: relative !important;
+                        width: 35px;
+                        display: flex;
+                        font-size: 20px;
+                        flex-direction: row;
+                        justify-content: flex-end;
+                    }
+                }
+            }
+
+            .Avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                margin-right: 0.8rem;
+                background-color: #444;
+            }
+
+            .Name {
+                font-size: 16px;
+                font-weight: 600;
+                font-family: 'Manrope', sans-serif;
+            }
+        }
+    }
+}
