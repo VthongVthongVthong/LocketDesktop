@@ -1,5 +1,6 @@
 # Locket Desktop
 Ứng dụng Locket không chính thức cho **Windows** — được xây dựng bằng **Tauri 2.x** (Rust) + **React + TypeScript + SCSS**.
+<img width="293" height="525" alt="image" src="https://github.com/user-attachments/assets/3fa04797-2d13-4190-8b9a-3bb0ae8c6b3c" />
 
 Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh/quay video và đăng lên Locket ngay trên máy tính.
 
@@ -23,6 +24,10 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Nút "new moment" xuất hiện khi có khoảnh khắc mới trong lúc đang xem.
 - Lọc khoảnh khắc theo từng bạn bè hoặc xem "Mọi người".
 - Xem khoảnh khắc của chính mình.
+<img width="291" height="520" alt="image" src="https://github.com/user-attachments/assets/697c9d0a-d487-49d8-abe6-821a8819cf95" />
+
+
+
 
 ### 📸 Chụp ảnh & Quay video
 
@@ -33,6 +38,8 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Crop ảnh không vuông bằng cách kéo-thả trước khi đăng.
 - Thêm caption trước khi đăng.
 - Ảnh tự động chuyển đổi sang **WebP 1024×1024** trước khi upload.
+<img width="290" height="524" alt="image" src="https://github.com/user-attachments/assets/f9cdd646-a819-4735-8a6b-1e319ca71211" />
+
 
 ### 💬 Nhắn tin (Chat)
 
@@ -41,12 +48,20 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Hiển thị lịch sử tin nhắn bao gồm ảnh/video moment đính kèm.
 - Đánh dấu đã đọc / đã gửi tự động.
 - Badge số tin nhắn chưa đọc.
+<img width="294" height="524" alt="image" src="https://github.com/user-attachments/assets/244504e9-6653-4ad9-92d6-35bc4da7f0cc" />
+
 
 ### 🔔 Thông báo
 
 - Thông báo hệ thống dạng popup tùy chỉnh khi có khoảnh khắc mới hoặc tin nhắn mới.
 - Bấm vào thông báo → mở ứng dụng và điều hướng đến nội dung tương ứng.
 - Có thể bật/tắt thông báo trong menu.
+<img width="191" height="131" alt="image" src="https://github.com/user-attachments/assets/d1a75171-0146-4c18-9b62-aad7c86403e5" />
+
+<img width="247" height="60" alt="image" src="https://github.com/user-attachments/assets/cb9f3bcf-8a33-4e4a-9058-19f31acf3445" />
+
+<img width="242" height="63" alt="image" src="https://github.com/user-attachments/assets/f9d2e373-1dbb-4d54-9a3e-074fd51b193d" />
+
 
 ### 😍 Reactions & Tin nhắn nhanh
 
@@ -70,6 +85,8 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
   - **Open data folder** — mở thư mục dữ liệu `%APPDATA%\com.locket.widget\`
   - **Quit** — thoát hoàn toàn
 - Bấm trái vào icon tray để toggle ẩn/hiện cửa sổ.
+<img width="147" height="107" alt="image" src="https://github.com/user-attachments/assets/029f9f73-dfe7-4b7a-8331-75b9ae19d7e1" />
+
 
 ### 🔐 Đăng nhập
 
@@ -77,6 +94,7 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Đăng nhập bằng **email/mật khẩu** (Firebase Auth).
 - Selector mã quốc gia với cờ quốc kỳ.
 - Token tự động refresh khi hết hạn.
+<img width="292" height="523" alt="image" src="https://github.com/user-attachments/assets/4cec5239-3985-4a61-b7ee-2e493bdd3d79" />
 
 ---
 
