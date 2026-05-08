@@ -94,8 +94,10 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
   - **Open data folder** — mở thư mục dữ liệu `%APPDATA%\com.locket.widget\`
   - **Quit** — thoát hoàn toàn
 - Bấm trái vào icon tray để toggle ẩn/hiện cửa sổ.
-<img width="147" height="107" alt="image" src="https://github.com/user-attachments/assets/029f9f73-dfe7-4b7a-8331-75b9ae19d7e1" />
 
+<p align="center">
+<img width="147" height="107" alt="image" src="https://github.com/user-attachments/assets/029f9f73-dfe7-4b7a-8331-75b9ae19d7e1" />
+</p>
 
 ### 🔐 Đăng nhập
 
@@ -103,8 +105,10 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Đăng nhập bằng **email/mật khẩu** (Firebase Auth).
 - Selector mã quốc gia với cờ quốc kỳ.
 - Token tự động refresh khi hết hạn.
-<img width="292" height="523" alt="image" src="https://github.com/user-attachments/assets/4cec5239-3985-4a61-b7ee-2e493bdd3d79" />
 
+<p align="center">
+<img width="292" height="523" alt="image" src="https://github.com/user-attachments/assets/4cec5239-3985-4a61-b7ee-2e493bdd3d79" />
+</p>
 ---
 
 ## Công nghệ sử dụng
