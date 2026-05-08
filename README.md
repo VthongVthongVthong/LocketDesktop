@@ -1,7 +1,8 @@
 # Locket Desktop
 Ứng dụng Locket không chính thức cho **Windows** — được xây dựng bằng **Tauri 2.x** (Rust) + **React + TypeScript + SCSS**.
+<p align="center">
 <img width="293" height="525" alt="image" src="https://github.com/user-attachments/assets/3fa04797-2d13-4190-8b9a-3bb0ae8c6b3c" />
-
+</p>
 Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh/quay video và đăng lên Locket ngay trên máy tính.
 
 ## Tuyên bố miễn trừ
@@ -24,8 +25,9 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Nút "new moment" xuất hiện khi có khoảnh khắc mới trong lúc đang xem.
 - Lọc khoảnh khắc theo từng bạn bè hoặc xem "Mọi người".
 - Xem khoảnh khắc của chính mình.
+<p align="center">
 <img width="291" height="520" alt="image" src="https://github.com/user-attachments/assets/697c9d0a-d487-49d8-abe6-821a8819cf95" />
-
+</p>
 
 
 
@@ -38,8 +40,9 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Crop ảnh không vuông bằng cách kéo-thả trước khi đăng.
 - Thêm caption trước khi đăng.
 - Ảnh tự động chuyển đổi sang **WebP 1024×1024** trước khi upload.
+<p align="center">
 <img width="290" height="524" alt="image" src="https://github.com/user-attachments/assets/f9cdd646-a819-4735-8a6b-1e319ca71211" />
-
+</p>
 
 ### 💬 Nhắn tin (Chat)
 
@@ -48,20 +51,26 @@ Hiển thị khoảnh khắc (moments) của bạn bè, nhắn tin, chụp ảnh
 - Hiển thị lịch sử tin nhắn bao gồm ảnh/video moment đính kèm.
 - Đánh dấu đã đọc / đã gửi tự động.
 - Badge số tin nhắn chưa đọc.
+<p align="center">
 <img width="294" height="524" alt="image" src="https://github.com/user-attachments/assets/244504e9-6653-4ad9-92d6-35bc4da7f0cc" />
-
+</p>
 
 ### 🔔 Thông báo
 
 - Thông báo hệ thống dạng popup tùy chỉnh khi có khoảnh khắc mới hoặc tin nhắn mới.
 - Bấm vào thông báo → mở ứng dụng và điều hướng đến nội dung tương ứng.
 - Có thể bật/tắt thông báo trong menu.
+<p align="center">
 <img width="191" height="131" alt="image" src="https://github.com/user-attachments/assets/d1a75171-0146-4c18-9b62-aad7c86403e5" />
+</p>
 
+<p align="center">
 <img width="247" height="60" alt="image" src="https://github.com/user-attachments/assets/cb9f3bcf-8a33-4e4a-9058-19f31acf3445" />
+</p>
 
+<p align="center">
 <img width="242" height="63" alt="image" src="https://github.com/user-attachments/assets/f9d2e373-1dbb-4d54-9a3e-074fd51b193d" />
-
+</p>
 
 ### 😍 Reactions & Tin nhắn nhanh
 
